@@ -1,6 +1,7 @@
 ##This should detect and install missing packages before loading them - hopefully!
 library("shinydashboardPlus")
 library("shinythemes")
+library("dashboardthemes")
 library("shinydashboard")
 library("shinyWidgets")
 library("lubridate")
@@ -32,9 +33,9 @@ library("shinyauthr")
 source("./reBAP_engine/tukciwin_module.R")
 source("./reBAP_engine/reBAP_Shiny_tuqna.R")
 source("./reBAP_engine/epex_data.R")
-source("./functions_module/regelleistung_data_crawlerR.R")
-source("./functions_module/Rcrawler_module.R")
-source("./rebap_engine/tuffirin_module.R")
+source("./reBAP_engine/regelleistung_data_crawlerR.R")
+source("./reBAP_engine/Rcrawler_module.R")
+source("./reBAP_engine/tuffirin_module.R")
 source("./ayen_nnidhen/anekcum_udem.R")
 
 

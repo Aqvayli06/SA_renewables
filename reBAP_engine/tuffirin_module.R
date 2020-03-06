@@ -1,8 +1,8 @@
 # 
 # anekcum_uffir <- data_frame(
-#   user = c("Ali", "Mamou"),
-#   password = c("Amrane", "Babi"), 
-#   password_hash = sapply(c("Amrane", "Amrane"), sodium::password_store), 
+#   user = c("Farid", "user"),
+#   password = c("Ali", "passwd"),
+#   password_hash = sapply(c("Ali", "passwd"), sodium::password_store),
 #   permissions = c("admin", "standard"),
 #   name = c("User One", "User Two")
 # )
